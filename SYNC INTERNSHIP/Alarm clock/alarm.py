@@ -1,7 +1,8 @@
 import tkinter as tk
 from tkinter import *
 from tkinter import messagebox
-import os,time,winsound  
+import os,time
+from playsound import playsound
 
 def createWidgets(): 
     label1 = Label(root,text="Enter time ")
@@ -44,7 +45,7 @@ def submit():
         time.sleep(1)
     if Alarmtime==currenttime: 
         print("Playing Alarm...")
-        winsound.PlaySound("*",winsound.SND_ASYNC) 
+        playSound("sound.mp3") 
         label3.config(text="Alarm Sound Playing>>>>")
         messagebox.showinfo("Alarm Message",f"The message is : {alarmmessage}")
 
