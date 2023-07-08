@@ -4,8 +4,8 @@ import smtplib
 def send_otp(email):
     server = smtplib.SMTP('smtp.gmail.com')
     server.starttls()
-    email_address = 'fundamentally51@gmail.com'             #yourmailid
-    email_password = 'vykpgplgycwunzoj'                     #yourpassword
+    email_address = 'yourmailid@gmail.com'             
+    email_password = 'yourpassword'                     
     server.login(email_address, email_password)
     otp = ''.join([str(random.randint(0, 9)) for i in range(6)]) 
     message = f'Your OTP is {otp}'
