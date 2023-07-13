@@ -15,3 +15,10 @@ Password can be an app password . To create the app password:
 4) Turn on 2 factor authenetication
 5) Go to app passwords
 6) New app password will be generated and use that for sending mail
+
+#Task 3: URL Shortener 
+Module imported: -> tkinter 
+                 -> pyshorteners[ pip install pyshorteners] 
+                 -> webbrowsers 
+
+It gives a GUI based URL Shortener box where the url is pasted and it produces the "shortened url" which you can direct open or copy paste to view.
