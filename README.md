@@ -16,7 +16,7 @@ Password can be an app password . To create the app password:
 5) Go to app passwords
 6) New app password will be generated and use that for sending mail
 
-#Task 3: URL Shortener 
+# Task 3: URL Shortener 
 Module imported: -> tkinter 
                  -> pyshorteners[ pip install pyshorteners] 
                  -> webbrowsers 
